@@ -1,0 +1,4 @@
+lt\kurti\productassortment\ProductAssortmentApplicationTests.class
+lt\kurti\productassortment\web\rest\ProductResourceIntTest.class
+lt\kurti\productassortment\util\TestUtil.class
+lt\kurti\productassortment\validation\ProductValidatorTest.class

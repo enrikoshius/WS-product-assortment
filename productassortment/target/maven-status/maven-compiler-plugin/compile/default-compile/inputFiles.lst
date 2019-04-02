@@ -1,0 +1,13 @@
+C:\Projects\WEB\productassortment\src\main\java\lt\kurti\productassortment\web\rest\errors\ResourceNotFoundException.java
+C:\Projects\WEB\productassortment\src\main\java\lt\kurti\productassortment\service\impl\ProductServiceImpl.java
+C:\Projects\WEB\productassortment\src\main\java\lt\kurti\productassortment\web\rest\errors\CustomExceptionAdvice.java
+C:\Projects\WEB\productassortment\src\main\java\lt\kurti\productassortment\web\rest\errors\ErrorMessage.java
+C:\Projects\WEB\productassortment\src\main\java\lt\kurti\productassortment\repository\ProductRepository.java
+C:\Projects\WEB\productassortment\src\main\java\lt\kurti\productassortment\web\rest\ProductResource.java
+C:\Projects\WEB\productassortment\src\main\java\lt\kurti\productassortment\web\rest\errors\InvalidRequestException.java
+C:\Projects\WEB\productassortment\src\main\java\lt\kurti\productassortment\validation\ProductValidator.java
+C:\Projects\WEB\productassortment\src\main\java\lt\kurti\productassortment\web\rest\errors\ErrorConstants.java
+C:\Projects\WEB\productassortment\src\main\java\lt\kurti\productassortment\domain\enumeration\ProductStatus.java
+C:\Projects\WEB\productassortment\src\main\java\lt\kurti\productassortment\domain\Product.java
+C:\Projects\WEB\productassortment\src\main\java\lt\kurti\productassortment\ProductAssortmentApplication.java
+C:\Projects\WEB\productassortment\src\main\java\lt\kurti\productassortment\service\ProductService.java

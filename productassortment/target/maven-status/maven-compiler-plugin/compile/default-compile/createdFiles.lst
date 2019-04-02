@@ -1,0 +1,13 @@
+lt\kurti\productassortment\web\rest\errors\InvalidRequestException.class
+lt\kurti\productassortment\repository\ProductRepository.class
+lt\kurti\productassortment\ProductAssortmentApplication.class
+lt\kurti\productassortment\domain\enumeration\ProductStatus.class
+lt\kurti\productassortment\service\impl\ProductServiceImpl.class
+lt\kurti\productassortment\validation\ProductValidator.class
+lt\kurti\productassortment\web\rest\errors\CustomExceptionAdvice.class
+lt\kurti\productassortment\web\rest\errors\ErrorMessage.class
+lt\kurti\productassortment\web\rest\errors\ResourceNotFoundException.class
+lt\kurti\productassortment\web\rest\ProductResource.class
+lt\kurti\productassortment\web\rest\errors\ErrorConstants.class
+lt\kurti\productassortment\service\ProductService.class
+lt\kurti\productassortment\domain\Product.class
