@@ -9,7 +9,6 @@ import java.util.Map;
 import java.util.Optional;
 //import java.util.Optional;
 
-import com.sun.javafx.collections.MappingChange;
 import mif.productassortment.domain.Product;
 import mif.productassortment.service.ProductService;
 import mif.productassortment.web.rest.errors.ResourceNotFoundException;
