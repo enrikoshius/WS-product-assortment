@@ -1,10 +1,13 @@
 package mif.productassortment.service.impl;
 
+import java.util.Collections;
 import java.util.Date;
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 
 import mif.productassortment.domain.Product;
+import mif.productassortment.domain.enumerator.ProductStatus;
 import mif.productassortment.repository.ProductRepository;
 import mif.productassortment.service.ProductService;
 import mif.productassortment.validation.ProductValidator;
@@ -12,6 +15,7 @@ import mif.productassortment.web.rest.errors.ResourceNotFoundException;
 import mif.productassortment.web.rest.errors.ErrConstants;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.util.CollectionUtils;
 import org.springframework.util.StringUtils;
 
 @Service
@@ -75,7 +79,22 @@ public class ProductServiceImpl implements ProductService {
 	}
 
 	@Override
-	public List<Product> getProducts() {
+	public List<Product> getProducts(final Map<String, String> allParams) {
+		if (!CollectionUtils.isEmpty(allParams)) {
+			if (allParams.get("id") != null) {
+				Optional<Product> product = productRepository.findById(Long.parseLong(allParams.get("id")));
+				return Collections.singletonList(product.get());
+			}
+			if (allParams.get("status") != null) {
+				return productRepository.findByStatus(ProductStatus.valueOf(allParams.get("status")));
+			}
+			if (allParams.get("name") != null) {
+				return productRepository.findByName(allParams.get("name"));
+			}
+			if (allParams.get("description") != null) {
+				return productRepository.findByDescription(allParams.get("description"));
+			}
+		}
 		return productRepository.findAll();
 	}
 
@@ -92,4 +111,6 @@ public class ProductServiceImpl implements ProductService {
 			throw new ResourceNotFoundException(ErrConstants.PRODUCT_NOT_FOUND_BY_ID);
 		}
 	}
+
+
 }

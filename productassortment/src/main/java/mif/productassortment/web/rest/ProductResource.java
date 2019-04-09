@@ -5,8 +5,11 @@ import static org.springframework.http.MediaType.APPLICATION_JSON_VALUE;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
+//import java.util.Optional;
 
+import com.sun.javafx.collections.MappingChange;
 import mif.productassortment.domain.Product;
 import mif.productassortment.service.ProductService;
 import mif.productassortment.web.rest.errors.ResourceNotFoundException;
@@ -20,6 +23,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
@@ -33,11 +37,12 @@ public class ProductResource {
 	}
 
 	@GetMapping(value = "/products", produces = APPLICATION_JSON_VALUE, consumes = APPLICATION_JSON_VALUE)
-	public ResponseEntity<List<Product>> getProducts() {
-		final List<Product> result = productService.getProducts();
-
+	public ResponseEntity<List<Product>> getProducts(@RequestParam Map<String,String> allParams) {
+		final List<Product> result = productService.getProducts(allParams);
 		return ResponseEntity.ok(result);
 	}
+
+
 
 	@PostMapping(value = "/products", produces = APPLICATION_JSON_VALUE, consumes = APPLICATION_JSON_VALUE)
 	public ResponseEntity<Product> addProduct(@RequestBody Product product) throws URISyntaxException {
@@ -78,4 +83,5 @@ public class ProductResource {
 		return ResponseEntity.ok()
 				.body(result);
 	}
+
 }
