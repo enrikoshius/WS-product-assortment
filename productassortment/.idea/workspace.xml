@@ -25,14 +25,14 @@
         <counts>
           <entry key="Dockerfile" value="3" />
           <entry key="dummy" value="79" />
-          <entry key="java" value="1245" />
+          <entry key="java" value="1283" />
           <entry key="sql" value="73" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1245" />
+          <entry key="JAVA" value="1283" />
           <entry key="PLAIN_TEXT" value="82" />
           <entry key="SQL" value="73" />
           <entry key="XML" value="1" />
@@ -41,14 +41,14 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Dockerfile" value="1" />
-          <entry key="java" value="72" />
+          <entry key="java" value="73" />
           <entry key="properties" value="1" />
           <entry key="sql" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="72" />
+          <entry key="JAVA" value="73" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="1" />
           <entry key="SQL" value="1" />
@@ -61,7 +61,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/mif/productassortment/web/rest/ProductResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
+            <state relative-caret-position="585">
               <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -70,20 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/mif/productassortment/web/rest/errors/ErrConstants.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/mif/productassortment/service/impl/ProductServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="97" column="37" selection-start-line="97" selection-start-column="33" selection-end-line="97" selection-end-column="40" />
+            <state relative-caret-position="398">
+              <caret line="89" column="12" selection-start-line="89" selection-start-column="12" selection-end-line="89" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,8 +85,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/mif/productassortment/repository/ProductRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="51" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="51" />
+            <state relative-caret-position="238">
+              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -172,6 +163,18 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mif/productassortment/service/ProductService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -223,7 +226,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/data-h2.sql" />
         <option value="$PROJECT_DIR$/Dockerfile" />
         <option value="$PROJECT_DIR$/src/main/java/mif/productassortment/domain/Product.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mif/productassortment/service/ProductService.java" />
         <option value="$PROJECT_DIR$/src/main/java/mif/productassortment/web/rest/errors/ErrorConstants.java" />
         <option value="$PROJECT_DIR$/src/main/java/mif/productassortment/web/rest/errors/ErrMessages.java" />
         <option value="$PROJECT_DIR$/src/test/java/mif/productassortment/web/rest/ProductResourceIntTest.java" />
@@ -234,14 +236,15 @@
         <option value="$PROJECT_DIR$/src/main/java/mif/productassortment/web/rest/errors/CustExceptionAdvice.java" />
         <option value="$PROJECT_DIR$/src/main/java/mif/productassortment/validation/ProductValidator.java" />
         <option value="$PROJECT_DIR$/src/main/java/mif/productassortment/repository/ProductRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mif/productassortment/service/impl/ProductServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/mif/productassortment/web/rest/ProductResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mif/productassortment/service/ProductService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mif/productassortment/service/impl/ProductServiceImpl.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="747" />
-    <option name="width" value="1180" />
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -423,7 +426,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="customExceptionAdvice&#9;PSI&#9;JAVA://mif.productassortment.web.rest.errors.CustomExceptionAdvice&#10;defect&#9;PSI&#9;JAVA://org.ietf.jgss.GSSException#DEFECTIVE_CREDENTIAL&#10;DEFECT_DESCRIPTION&#9;PSI&#9;JAVA://mif.productassortment.web.rest.ProductResourceIntTest#UPDATED_DEFECT_DESCRIPTION&#10;ID_CANNOT_BE_PRESENT&#9;PSI&#9;JAVA://mif.productassortment.web.rest.errors.ErrorConstants#ID_CANNOT_BE_PRESENT&#10;ProductResource&#9;FILE&#9;file://C:/Projects/WEB/productassortment/src/main/java/lt/kurti/productassortment/web/rest/ProductResource.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554887594417" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554888309123" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -645,16 +648,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mif/productassortment/service/ProductService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mif/productassortment/web/rest/errors/ErrMessages" />
     <entry file="file://$PROJECT_DIR$/src/main/java/mif/productassortment/ProductAssortmentApplication.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -775,9 +768,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mif/productassortment/service/ProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mif/productassortment/web/rest/ProductResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
+        <state relative-caret-position="585">
           <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -787,8 +790,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mif/productassortment/repository/ProductRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="51" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="51" />
+        <state relative-caret-position="238">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -797,8 +800,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mif/productassortment/service/impl/ProductServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="97" column="37" selection-start-line="97" selection-start-column="33" selection-end-line="97" selection-end-column="40" />
+        <state relative-caret-position="398">
+          <caret line="89" column="12" selection-start-line="89" selection-start-column="12" selection-end-line="89" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
