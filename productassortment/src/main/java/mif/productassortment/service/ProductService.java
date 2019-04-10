@@ -14,9 +14,10 @@ public interface ProductService {
 
 	Product patchProduct(Product product, Long id);
 
-	List<Product> getProducts(Map<String, String> allParams);
+	List<Product> getProducts(final Map<String, String> allParams);
 
 	Optional<Product> getProductById(Long id);
 
 	void deleteProductById(Long id);
 }
+
