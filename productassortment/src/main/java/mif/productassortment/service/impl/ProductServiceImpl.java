@@ -86,7 +86,7 @@ public class ProductServiceImpl implements ProductService {
 				return Collections.singletonList(product.get());
 			}
 			if (allParams.get("status") != null) {
-				return productRepository.findByStatus(ProductStatus.valueOf(allParams.get("%status%")));
+				return productRepository.findByStatus(ProductStatus.valueOf(allParams.get("status")));
 			}
 			if (allParams.get("name") != null) {
 				return productRepository.findByName(allParams.get("name"));

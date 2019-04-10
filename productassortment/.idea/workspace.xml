@@ -25,14 +25,14 @@
         <counts>
           <entry key="Dockerfile" value="3" />
           <entry key="dummy" value="79" />
-          <entry key="java" value="1283" />
+          <entry key="java" value="1285" />
           <entry key="sql" value="73" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1283" />
+          <entry key="JAVA" value="1285" />
           <entry key="PLAIN_TEXT" value="82" />
           <entry key="SQL" value="73" />
           <entry key="XML" value="1" />
@@ -73,8 +73,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/mif/productassortment/service/impl/ProductServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="89" column="12" selection-start-line="89" selection-start-column="12" selection-end-line="89" selection-end-column="12" />
+            <state relative-caret-position="738">
+              <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -426,7 +426,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="customExceptionAdvice&#9;PSI&#9;JAVA://mif.productassortment.web.rest.errors.CustomExceptionAdvice&#10;defect&#9;PSI&#9;JAVA://org.ietf.jgss.GSSException#DEFECTIVE_CREDENTIAL&#10;DEFECT_DESCRIPTION&#9;PSI&#9;JAVA://mif.productassortment.web.rest.ProductResourceIntTest#UPDATED_DEFECT_DESCRIPTION&#10;ID_CANNOT_BE_PRESENT&#9;PSI&#9;JAVA://mif.productassortment.web.rest.errors.ErrorConstants#ID_CANNOT_BE_PRESENT&#10;ProductResource&#9;FILE&#9;file://C:/Projects/WEB/productassortment/src/main/java/lt/kurti/productassortment/web/rest/ProductResource.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554888309123" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554888785729" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -800,8 +800,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mif/productassortment/service/impl/ProductServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="89" column="12" selection-start-line="89" selection-start-column="12" selection-end-line="89" selection-end-column="12" />
+        <state relative-caret-position="738">
+          <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
