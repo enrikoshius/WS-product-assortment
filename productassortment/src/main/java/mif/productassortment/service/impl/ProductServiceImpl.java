@@ -89,10 +89,10 @@ public class ProductServiceImpl implements ProductService {
 				return productRepository.findByStatus(ProductStatus.valueOf(allParams.get("status")));
 			}
 			if (allParams.get("name") != null) {
-				return productRepository.findByName(allParams.get("name"));
+				return productRepository.findByNameContaining(allParams.get("name"));
 			}
 			if (allParams.get("description") != null) {
-				return productRepository.findByDescription(allParams.get("description"));
+				return productRepository.findByDescriptionContaining(allParams.get("description"));
 			}
 		}
 		return productRepository.findAll();
